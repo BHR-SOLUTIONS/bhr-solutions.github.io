@@ -31,9 +31,9 @@
     }
 
     .availability {
-      font-weight: bold;
-      font-size: 18px;
       margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
     }
 
     .hero img {
@@ -68,7 +68,7 @@
 
     .box {
       background: white;
-      max-width: 900px;
+      max-width: 950px;
       margin: 40px auto;
       padding: 30px;
       border-radius: 12px;
@@ -77,13 +77,14 @@
 
     .box h2 {
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     .box p {
       text-align: center;
-      margin-bottom: 20px;
       color: #555;
+      margin-bottom: 20px;
+      line-height: 1.6;
     }
 
     .box ul {
@@ -95,6 +96,18 @@
       padding: 10px 0;
       border-bottom: 1px solid #eee;
       font-size: 16px;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 280px;
+      border-radius: 10px;
     }
 
     footer {
@@ -134,13 +147,39 @@
     </a>
   </div>
 
-  <!-- SERVICES FR -->
+  <!-- QUI SOMMES-NOUS -->
+  <div class="box">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+      BHR Solutions est une entreprise de services polyvalents à domicile,
+      active 24h/24 et 7j/7.  
+      Nous accompagnons particuliers et professionnels pour tous types
+      d’interventions rapides ou planifiées.
+    </p>
+    <p>
+      Notre objectif est simple : proposer un travail sérieux, efficace
+      et soigné, avec une intervention rapide et des solutions adaptées
+      à chaque situation.
+    </p>
+  </div>
+
+  <!-- WIE ZIJN WIJ -->
+  <div class="box">
+    <h2>Wie zijn wij?</h2>
+    <p>
+      BHR Solutions is een professionele dienstverlener aan huis,
+      24 uur per dag en 7 dagen per week beschikbaar.
+    </p>
+    <p>
+      Wij bieden betrouwbare en snelle oplossingen voor herstellingen,
+      renovaties, ontruimingen en tuinonderhoud,
+      met oog voor kwaliteit en klanttevredenheid.
+    </p>
+  </div>
+
+  <!-- SERVICES -->
   <div class="box">
     <h2>Nos services</h2>
-    <p>
-      BHR Solutions vous propose des services polyvalents à domicile,
-      réalisés avec sérieux, rapidité et professionnalisme.
-    </p>
     <ul>
       <li>✔ Dépannage à domicile</li>
       <li>✔ Électricité</li>
@@ -153,23 +192,15 @@
     </ul>
   </div>
 
-  <!-- SERVICES NL -->
+  <!-- GALERIE -->
   <div class="box">
-    <h2>Diensten (Nederlands)</h2>
-    <p>
-      BHR Solutions biedt professionele en betrouwbare diensten aan huis.
-      Wij werken snel, correct en zijn beschikbaar 24 uur per dag, 7 dagen per week.
-    </p>
-    <ul>
-      <li>✔ Herstellingen aan huis</li>
-      <li>✔ Elektriciteit</li>
-      <li>✔ Loodgieterij</li>
-      <li>✔ Kleine herstellingen</li>
-      <li>✔ Installaties & renovaties</li>
-      <li>✔ Ontruiming & leegmaken van woningen</li>
-      <li>✔ Tuinonderhoud en tuinwerken</li>
-      <li>✔ Snelle interventies — 24/7</li>
-    </ul>
+    <h2>Galerie photos</h2>
+    <p>Quelques exemples de nos interventions</p>
+    <div class="gallery">
+      <img src="camionnette.PNG" alt="BHR Solutions">
+      <img src="photo1.jpg" alt="Intervention BHR Solutions">
+      <img src="photo2.jpg" alt="Travaux BHR Solutions">
+    </div>
   </div>
 
   <!-- FOOTER -->
